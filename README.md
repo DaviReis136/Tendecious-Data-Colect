@@ -1,4 +1,4 @@
-# EST011 — Introduction to Statistics Assignment (Group 1, Activity A)
+# ***EST011 — Introduction to Statistics Assignment (Group 1, Activity A)***
 
 **National School of Statistical Sciences (ENCE-IBGE)** — 2026-2
 
@@ -30,11 +30,9 @@ Two versions of the same survey question were created:
 
 A small HTML page (hosted on Netlify) randomly redirected respondents to one of two Google Forms links — one per question version — so assignment to A or B was automated rather than manual. The survey ran from **08/24/2026 to 08/26/2026** and was shared with ENCE-IBGE students and alumni via WhatsApp.
 
-### Code:
+### *Code:*
 
 ```
-
-
 <!DOCTYPE html>
 2 <html>
 3 <head>
@@ -61,21 +59,30 @@ Math.random()*links.length)]);
 18 </body>
 19 </html>
 C ´odigo 1. Linguagem HTML
-
-
 ```
 
-### Website:
+### *Website:*
 
-
-<img width="1919" height="921" alt="image" src="https://github.com/user-attachments/assets/c669db96-f4d0-4dbe-8c44-b8f0dc78ae46" />
+<img width="1919" height="907" alt="picture" src="https://github.com/user-attachments/assets/815643a6-71d3-4748-b3f8-82275413a8f0" />
 
 *Note*: Introdution to Statics College project<br> 
 Redirecting to forms
 
-### What we change in Version B
+### *Link*
+
+https://est001-grupo1-ence-forms.netlify.app/
+
+### *Forms*
+
+*A*-<br>
+https://docs.google.com/forms/d/1iikgQfoIA8jqb4ZUckGwXfvkhPw6WONmvWsiw-YUDrk/edit  <br/>
+*B*- <br>
+https://docs.google.com/forms/d/1Xhnd19gcNV09Mk_whY00hsIwe-lXGpjFEwroKGZ-BaQ/edit <br>
+
+### *What we change in Version B*
 
 We mentioned the student's individual needs regarding accommodations, rather than simply generalizing the need for accommodations.
+
 
 ## 📁 Repository structure
 
@@ -131,17 +138,18 @@ These only use base LaTeX math mode (`\hat{}`, `\frac{}{}`) — no extra math pa
 | Proportion of yes | 0.76 | 0.80 |
 | Difference (A − B) | — | −0.04 |
 
+
 ---
 
-## Conclusion
+## **Conclusion**
 
-Mentioning needs creates certainty.
+Mentioning needs creates certainty. 💡
+
+---
 
 ## 🗣 Note 
 
-This repository contains a LaTeX report for an introductory statistics assignment. The project ran a small **online survey experiment** to measure how question wording (neutral vs. biased phrasing) affects response rates, using an automated randomized redirect built with a static HTML page.
-
----
+This repository contains a LaTeX report for an introductory statistics assignment and your code. The project ran a small **online survey experiment** to measure how question wording (neutral vs. biased phrasing) affects response rates, using an automated randomized redirect built with a static HTML page.
 
 ## 📄 License
 
