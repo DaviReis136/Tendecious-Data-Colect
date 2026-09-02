@@ -30,7 +30,8 @@ Two versions of the same survey question were created:
 
 A small HTML page (hosted on Netlify) randomly redirected respondents to one of two Google Forms links — one per question version — so assignment to A or B was automated rather than manual. The survey ran from **08/24/2026 to 08/26/2026** and was shared with ENCE-IBGE students and alumni via WhatsApp.
 
-Read more about: 
+ [Read more about](./Project.pdf)
+
 
 ### *Code:*
 
@@ -153,7 +154,8 @@ Mentioning needs creates certainty. 💡
 
 This repository contains a LaTeX report for an introductory statistics assignment and your code. The project ran a small **online survey experiment** to measure how question wording (neutral vs. biased phrasing) affects response rates, using an automated randomized redirect built with a static HTML page.
 
-The lattex code: 
+[The lattex code](./code_lattex.tex)
+
 
 ## 📄 License
 
