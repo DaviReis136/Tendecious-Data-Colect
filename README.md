@@ -4,8 +4,6 @@
 
 <img width="2518" height="416" alt="ence_LOGO" src="https://github.com/user-attachments/assets/0b048c6f-592b-4ddb-846a-eebeb3514ac0" />
 
-This repository contains a LaTeX report for an introductory statistics assignment. The project ran a small **online survey experiment** to measure how question wording (neutral vs. biased phrasing) affects response rates, using an automated randomized redirect built with a static HTML page.
-
 ---
 
 ## 👥 Authors
@@ -32,7 +30,52 @@ Two versions of the same survey question were created:
 
 A small HTML page (hosted on Netlify) randomly redirected respondents to one of two Google Forms links — one per question version — so assignment to A or B was automated rather than manual. The survey ran from **08/24/2026 to 08/26/2026** and was shared with ENCE-IBGE students and alumni via WhatsApp.
 
----
+### Code:
+
+```
+
+
+<!DOCTYPE html>
+2 <html>
+3 <head>
+4 <meta charset="utf-8"/>
+5 <title>Redirecionando</title>
+6 <meta id="encurtador" http-equiv="refresh" content="5; url=/"
+/>
+7 </head>
+8 <body>
+9 <h1>Trabalho de Introduc¸˜ao `a Estat´ıstica</h1>
+10 <h2>Redirecionando para o FORMS</h2>
+11 <script>
+12 var links = [
+13 Array(’https://docs.google.com/forms/d/e/1
+FAIpQLSd2wiAGmTh1TdIA53nGkhIkKpfWZR4fvpKMl2QsqDH_Ht2_ZA/
+viewform?usp=dialog’,’https://docs.google.com/forms/d/e/1
+FAIpQLSdAjuKGauA-w98E1IFzQi_46LdCfZUriVqT3byf4R21nltXSw/
+viewform?usp=dialog’)
+14 document
+15 .getElementById("encurtador")
+16 setAttribute("content", "5; URL=" + links[Math.floor(
+Math.random()*links.length)]);
+17 </script>
+18 </body>
+19 </html>
+C ´odigo 1. Linguagem HTML
+
+
+```
+
+### Website:
+
+
+<img width="1919" height="921" alt="image" src="https://github.com/user-attachments/assets/c669db96-f4d0-4dbe-8c44-b8f0dc78ae46" />
+
+*Note*: Introdution to Statics College project<br> 
+Redirecting to forms
+
+### What we change in Version B
+
+We mentioned the student's individual needs regarding accommodations, rather than simply generalizing the need for accommodations.
 
 ## 📁 Repository structure
 
@@ -83,32 +126,25 @@ These only use base LaTeX math mode (`\hat{}`, `\frac{}{}`) — no extra math pa
 
 | Metric | Version A | Version B |
 |--------|-----------|-----------|
-| Answered yes | 19 | 6 |
+| Answered yes | 19 | 21 |
 | Total approached | 25 | 26 |
 | Proportion of yes | 0.76 | 0.80 |
 | Difference (A − B) | — | −0.04 |
 
 ---
 
-## ⚙️ Requirements to compile
+## Conclusion
 
-- A LaTeX distribution: **TeX Live**, **MiKTeX**, or **MacTeX**.
-- Standard packages (included in any full install): `graphicx`, `url`, `babel`, `inputenc`, `verbatim`, `listings`, `xcolor`, `indentfirst`, `fancyhdr`, `lipsum`, `booktabs`, `hyperref`.
-- This `.tex` file does **not** require `sbc-template.sty` — the few commands from that package (`\inst`, `\address`, `\email`) are redefined locally at the top of the file in plain LaTeX.
+Mentioning needs creates certainty.
 
----
+## 🗣 Note 
 
-## ▶️ How to compile
-
-```bash
-pdflatex report_english.tex
-pdflatex report_english.tex   # run twice, for the table of contents and cross-references
-```
-
-Or open the project in [Overleaf](https://www.overleaf.com) and upload all four files (`.tex` + 3 images) together.
+This repository contains a LaTeX report for an introductory statistics assignment. The project ran a small **online survey experiment** to measure how question wording (neutral vs. biased phrasing) affects response rates, using an automated randomized redirect built with a static HTML page.
 
 ---
 
 ## 📄 License
 
 Academic assignment — for coursework use.
+
+
