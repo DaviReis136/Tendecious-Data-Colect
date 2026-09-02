@@ -91,10 +91,11 @@ We mentioned the student's individual needs regarding accommodations, rather tha
 
 ```
 .
-├── report_english.tex     # Main LaTeX source (English version)
+├── Project.pdf    # Main LaTeX source (English version)
+├── Code_lattex.tex    # Main LaTeX source code (English version)
 ├── ence_LOGO.jpg           # ENCE-IBGE logo — used in the page header
-├── Grafico_A.png            # Chart of responses to Version A
-├── Grafico_B.png            # Chart of responses to Version B
+├── Graph_A.png            # Chart of responses to Version A
+├── Graph_B.png            # Chart of responses to Version B
 └── README.md               # This file
 ```
 
