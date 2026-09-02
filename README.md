@@ -2,6 +2,8 @@
 
 **National School of Statistical Sciences (ENCE-IBGE)** — 2026-2
 
+<img width="2518" height="416" alt="ence_LOGO" src="https://github.com/user-attachments/assets/0b048c6f-592b-4ddb-846a-eebeb3514ac0" />
+
 This repository contains a LaTeX report for an introductory statistics assignment. The project ran a small **online survey experiment** to measure how question wording (neutral vs. biased phrasing) affects response rates, using an automated randomized redirect built with a static HTML page.
 
 ---
